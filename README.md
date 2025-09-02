@@ -159,20 +159,6 @@ export default defineNuxtConfig({
 - **Largest Contentful Paint**: < 2.5s
 - **Cumulative Layout Shift**: < 0.1
 
-## 🚀 Deployment
-
-### Vercel (Recommended)
-
-1. Connect your repository to Vercel
-2. Set environment variables in Vercel dashboard
-3. Deploy automatically on push to main branch
-
-### Netlify
-
-1. Connect your repository to Netlify
-2. Set build command: `npm run generate`
-3. Set publish directory: `.output/public`
-
 ### Docker
 
 ```dockerfile
