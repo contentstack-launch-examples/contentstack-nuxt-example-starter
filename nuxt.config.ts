@@ -14,11 +14,11 @@ export default defineNuxtConfig({
   },
   runtimeConfig: {
     public: {
-      apiKey: process.env.NUXT_CONTENTSTACK_API_KEY,
-      deliveryToken: process.env.NUXT_CONTENTSTACK_DELIVERY_TOKEN,
-      environment: process.env.NUXT_CONTENTSTACK_ENVIRONMENT,
-      region: process.env.NUXT_CONTENTSTACK_REGION,
-    },
+      apiKey: process.env.NUXT_CONTENTSTACK_API_KEY || 'default_api_key',
+      deliveryToken: process.env.NUXT_CONTENTSTACK_DELIVERY_TOKEN || 'default_delivery_token',
+      environment: process.env.NUXT_CONTENTSTACK_ENVIRONMENT || 'default_environment',
+      region: process.env.NUXT_CONTENTSTACK_REGION || 'default_region',
+    }
   },
   nitro: {
     prerender: {
