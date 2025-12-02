@@ -159,6 +159,17 @@ export default defineNuxtConfig({
 - **Largest Contentful Paint**: < 2.5s
 - **Cumulative Layout Shift**: < 0.1
 
+  
+## 🚀 Deployment
+
+### Contentstack Launch (recommended)
+
+1. Connect your repository to Launch.
+2. The build commands, output directory and server commands get auto-populated.
+3. Set build command: `npm run build`
+4. Set output directory: `./.output`
+5. Set server command: `npm run start`
+
 ### Docker
 
 ```dockerfile
