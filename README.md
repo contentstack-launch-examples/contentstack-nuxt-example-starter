@@ -69,7 +69,7 @@ kickstart-nuxt-Tim/
 
 ### Prerequisites
 
-- Node.js 20.x or higher
+- Node.js 24.x
 - npm or yarn package manager
 
 ### Installation
@@ -173,7 +173,7 @@ export default defineNuxtConfig({
 ### Docker
 
 ```dockerfile
-FROM node:20-alpine
+FROM node:24-alpine
 WORKDIR /app
 COPY package*.json ./
 RUN npm ci --only=production
