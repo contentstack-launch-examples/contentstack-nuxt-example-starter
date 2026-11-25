@@ -36,7 +36,7 @@
   },
   "overrides": {
     "replace-in-file": {
-      "glob": "^13.0.6"
+      "glob": "^14.0.6"
     },
     "qs": "^6.16.2"
   }
