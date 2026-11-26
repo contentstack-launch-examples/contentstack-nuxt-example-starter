@@ -24,7 +24,7 @@
     "@contentstack/delivery-sdk": "^4.7.0",
     "@nuxtjs/tailwindcss": "^6.14.0",
     "@timbenniks/contentstack-endpoints": "^1.0.10",
-    "nuxt": "^4.6.2",
+    "nuxt": "^4.7.0",
     "vue": "latest",
     "vue-router": "latest"
   },
@@ -32,10 +32,13 @@
     "node": "24.x"
   },
   "devDependencies": {
+    "@nuxt/devtools": "^3.4.4",
     "@types/node": "^22.15.21"
   },
   "overrides": {
-    "glob": "^13.0.6",
+    "replace-in-file": {
+      "glob": "^14.0.6"
+    },
     "qs": "^6.16.2"
   }
 }
